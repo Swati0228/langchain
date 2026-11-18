@@ -6,7 +6,7 @@ from langchain_core.output_parsers import StrOutputParser
 load_dotenv()
 
 prompt = PromptTemplate(
-    template='Generate 5 interesting facts about {topic}',
+    template='Generate 5 interesting facts and unknown about {topic}',
     input_variables=['topic']
 )
 
